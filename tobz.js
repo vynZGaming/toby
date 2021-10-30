@@ -299,7 +299,7 @@ module.exports = tobz = async (tobz, message) => {
             if (obj === true){
                 return false
             } else {     
-                return tobz.reply(from, `Kamu belum terdaftar sebagai Teman Elaina\nuntuk mendaftar kirim ${prefix}daftar |nama|umur\n\ncontoh format: ${prefix}daftar |tobz|17\n\ncukup gunakan nama depan/panggilan saja`, id) //if user is not registered
+                return tobz.reply(from, `Kamu belum daftar!!\nuntuk mendaftar kirim ${prefix}daftar |nama|umur\n\ncontoh format: ${prefix}daftar |sneazy|17\n\ncukup gunakan nama depan/panggilan saja`, id) //if user is not registered
             }
         }
 
