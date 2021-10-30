@@ -49,8 +49,7 @@ const start = async (tobz = new Client()) => {
         console.log('------------------------------------------------')
         lolcatjs.fromString('[DEV] TOBZ')
         lolcatjs.fromString('[SERVER] Server Started!')
-        tobz.onAnyMessage((fn) => messageLog(fn.fromMe, fn.type))
-        // Force it to keep the current session
+ // Force it to keep the current session
         tobz.onStateChanged((state) => {
             console.log('[Client State]', state)
             if (state === 'CONFLICT' || state === 'UNLAUNCHED') tobz.forceRefocus()
