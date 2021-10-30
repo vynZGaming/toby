@@ -54,7 +54,7 @@
     "video-crop": "^1.1.0",
     "video-crop-cli": "^1.1.0",
     "video-url-link": "^0.1.4",
-    "ytdl": "^4.9.1"
+    "ytdl": "^1.4.1"
   },
   "directories": {
     "lib": "lib"
